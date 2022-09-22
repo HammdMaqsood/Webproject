@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    min-height: 100vh;
+    display: flex;
+    font-weight: 400;
+    font-family: sans-serif;
+    background: #12c2e9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+  }
+  
+.logincontainer
+{
+  
+
+margin-left: 500px;
+margin-top: 200px;
+}
+.signupcontainer
+{margin-left: 500px;
+}
+.error
+{
+  color:red
+}
+  
+.userspost  
+{
+  background-color:white;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 20px;
+  border-radius: 20px;
+  float: right;
+
+
+}
+.likebutton
+{
+  
+  align-self: flex-start;
+  justify-content: left;
+  margin-right: 1050px;
+}
+
+.div1
+{
+  float: right;
+  text-align: right;
+}
+
+  
+  .custom-control-label {
+    font-weight: 1000;
+  }
+  
+  .forgot-password,
+  .forgot-password a {
+    text-align: right;
+    font-size: 13px;
+    padding-top: 10px;
+    color: #7f7d7d;
+    margin: 0;
+  }
+  #form1
+  {
+    margin-right: 800px;
+    margin-bottom: 50px;
+
+  }
+  
+  .forgot-password a {
+    color: #167bff;
+  }
+  .logoutbutton
+  {
+    /* text-align: right; */
+    margin-left: 1200px;
+ 
+    
+  }
+  
+  .social-feed-separated .social-avatar {
+  float: left;
+  padding: 0;
+}
+.social-feed-separated .social-avatar img {
+  width: 52px;
+  height: 52px;
+  border: 1px solid #e7eaec;
+}
+.social-feed-separated .social-feed-box .social-avatar {
+  padding: 15px 15px 0 15px;
+  float: none;
+}
+.social-feed-box {
+  /*padding: 15px;*/
+  border: 1px solid #e7eaec;
+  background: #fff;
+  margin-bottom: 15px;
+}
+
+
+.social-avatar {
+  padding: 15px 15px 0 15px;
+}
+
+.social-avatar img {
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+}
+
+.social-body {
+  padding: 15px;
+}
+.social-body img {
+  margin-bottom: 10px;
+}
